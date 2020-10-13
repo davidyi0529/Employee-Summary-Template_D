@@ -1,0 +1,23 @@
+{
+  "name": "employee-summary-template_d",
+  "version": "1.0.0",
+  "description": "OOP and testing for Employee Summary Template",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --verbose test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidyi0529/Employee-Summary-Template_D.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidyi0529/Employee-Summary-Template_D/issues"
+  },
+  "homepage": "https://github.com/davidyi0529/Employee-Summary-Template_D#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "jest": "^26.5.3"
+  }
+}
