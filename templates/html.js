@@ -16,13 +16,21 @@ function html(cards) {
         </head>
         <body>
             <header>
-                <nav class="navbar navbar-dark bg-dark row d-flex justify-content-center">
+                <nav class="navbar navbar-dark bg-primary row d-flex justify-content-center">
                     <h1 class="page_header text-white text-center">My Team</h1>
                 </nav>
             </header>
             <main class="d-flex justify-content-around flex-wrap p-4">
                 ${cards}
             </main>
+        
+        <nav class="navbar fixed-bottom navbar-dark bg-dark justify-content-center">
+            <a class="navbar-brand" href="https://davidyi0529.github.io/Updated-Portfolio_D/">
+                <img src="https://github.com/davidyi0529/Portfolio_D/blob/master/assets/images/logo.png?raw=true" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                Employee-Summary-Template_D
+            </a>
+        </nav>
+        
         </body>
     </html>
 `
